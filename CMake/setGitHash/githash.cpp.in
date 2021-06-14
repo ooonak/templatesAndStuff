@@ -1,0 +1,8 @@
+#include "../githash.h"
+
+#define DATE "@DATE@"
+#define GIT_HASH "@GIT_HASH@"
+
+const std::string compileDate(DATE);
+const std::string gitHash(GIT_HASH);
+
